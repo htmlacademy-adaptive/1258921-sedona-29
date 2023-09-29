@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Michael Melnikov](https://up.htmlacademy.ru/adaptive/29/user/1258921).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
 
 ---
 
