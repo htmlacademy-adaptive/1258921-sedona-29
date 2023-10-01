@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="main-header">
+    <a class="main-header__link" href="#">
+      <img class="main-header__logo" src="#" width="185" height="96"  alt="Логотип Седоны.">
+    </a>
+    <button class="main-header__button">
+      <span class="visually-hidden">Открыть навигацию</span>
+    </button>
+    <nav class="main-header__navigation">
+      <ul class="main-header__list">
+        <li class="main-header__item">
+          <a class="main-header__item-link" href="#">Главная</a>
+        </li>
+        <li class="main-header__item">
+          <a class="main-header__item-link" href="#">Фото и видео</a>
+        </li>
+        <li class="main-header__item">
+          <a class="main-header__item-link" href="#">Форма отзыва</a>
+        </li>
+        <li class="main-header__item">
+          <a class="main-header__item-link" href="#">HTML Academy</a>
+        </li>
+      </ul>
+      <button class="main-header__button">
+        <span class="visually-hidden">Закрыть навигацию</span>
+      </button>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 class="visually-hidden">Форма отзыва</h1>
+    <section class="hero">
+      <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
+      <img class="hero__image" src="#" width="229" height="39" alt="Sedona.">
+    </section>
+    <section class="review">
+      <h2 class="review__title">Оставьте свой отзыв</h2>
+      <p class="review__description">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      <form class="review__form" action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset class="review__field">
+          <legend class="review__legend">Представьтесь:</legend>
+          <label class="review__label">Имя*:
+            <input class="review__input" type="text" name="first-name" placeholder="Пётр">
+          </label>
+          <label class="review__label">Фамилия*:
+            <input class="review__input" type="text" name="last-name" placeholder="Пустота">
+          </label>
+          <label class="review__label">Отчество:
+            <input class="review__input" type="text" name="surname" placeholder="Викторович">
+          </label>
+        </fieldset>
+        <fieldset class="review__field">
+          <legend class="review__legend">Контактная информация:</legend>
+          <label class="review__label">Контактный телефон*:
+            <input class="review__input" type="text" name="mobile-number" placeholder="Введите телефон">
+          </label>
+          <label class="review__label">Электронная почта*:
+            <input class="review__input" type="text" name="e-mail" placeholder="Введите e-mail">
+          </label>
+        </fieldset>
+        <fieldset class="review__field">
+          <legend class="review__legend">Ваше общее впечатление:</legend>
+            <label class="review__label">
+              <input class="review__input" type="radio" name="general-effect" value="rather-positive" checked>
+              Скорее положительное
+            </label>
+            <label class="review__label">
+              <input class="review__input" type="radio" name="general-effect" value="rather-negative" checked>
+              Скорее отрицательное
+            </label>
+            <label class="review__label">
+              <input class="review__input" type="radio" name="general-effect" value="neutral" checked>
+              Затрудняюсь ответить
+            </label>
+        </fieldset>
+        <fieldset class="review__field">
+          <legend class="review__legend">Посещенные достопримечательности:</legend>
+            <label class="review__label">
+              <input class="review__input" type="checkbox" name="visited" value="devils-bridge" checked>
+              Мост Дьявола
+            </label>
+            <label class="review__label">
+              <input class="review__input" type="checkbox" name="visited" value="bell-mountain" checked>
+              Гора-Колокол
+            </label>
+            <label class="review__label">
+              <input class="review__input" type="checkbox" name="visited" value="slide-park" checked>
+              Слайд-парк
+            </label>
+            <label class="review__label">
+              <input class="review__input" type="checkbox" name="visited" value="red-rocks">
+              Красные скалы
+            </label>
+        </fieldset>
+        <fieldset class="review__field">
+          <legend class="review__legend">Опишите свои эмоции:</legend>
+          <label class="review__label">
+            <textarea name="comment" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+          </label>
+        </fieldset>
+        <button class="review__submit-button" type="submit">Отправить отзыв</button>
+        <span class="review__important">* — обязательные поля</span>
+      </form>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <p class="main-footer__hashtag">#VISITSEDONA</p>
+    <section class="main-footer__socials">
+      <h2 class="main-footer__socials-title">Социальные сети</h2>
+      <ul class="main-footer__socials-list">
+        <li class="main-footer__socials-item">
+          <a class="main-footer__social-link" href="#">
+            <img class="main-footer__social-image" src="#" width="24" height="24" alt="Вконтакте.">
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a class="main-footer__social-link" href="#">
+            <img class="main-footer__social-image" src="#" width="24" height="24" alt="Telegram.">
+            <span class="visually-hidden">Telegram</span>
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a class="main-footer__social-link" href="#">
+            <img class="main-footer__social-image" src="#" width="24" height="24" alt="YouTube.">
+            <span class="visually-hidden">YouTube</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="author">
+      <h2 class="visually-hidden">Автор</h2>
+      <p class="author__description">Разработано</p>
+      <img class="author__image" src="#" width="28" height="35" alt="HTML Academy.">
+    </section>
+  </footer>
+</body>
+</html>
