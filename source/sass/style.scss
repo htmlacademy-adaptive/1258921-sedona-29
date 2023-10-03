@@ -1,1 +1,17 @@
-// Начните писать стили здесь
+@use "common/page.scss";
+@use "common/visually-hidden.scss";
+@use "common/text.scss";
+@use "common/link.scss";
+@use "common/list.scss";
+@use "blocks/main-header.scss";
+@use "blocks/main-container.scss";
+@use "blocks/hero.scss";
+@use "blocks/advantages.scss";
+@use "blocks/interested.scss";
+@use "blocks/main-footer.scss";
+@use "blocks/author.scss";
+@use "blocks/gallery.scss";
+@use "blocks/video-presentation.scss";
+@use "blocks/review.scss";
+@use "blocks/comment.scss";
+@use "blocks/advantages-background.scss";
